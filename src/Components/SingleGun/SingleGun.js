@@ -12,7 +12,7 @@ const SingleGun = (props) => {
     <div>
       <div className="card w-full h-full bg-base-100 shadow-xl">
         <figure>
-          <img className="w-96 h-44" src={img} alt="Shoes" />
+          <img className="w-96 h-52" src={img} alt="Shoes" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">

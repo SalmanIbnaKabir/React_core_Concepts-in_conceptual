@@ -24,7 +24,7 @@ const AllGun = ({ countIncrease }) => {
   return (
     <div className="mt-5">
       <div className="my-4">
-        <h1 className="text-4xl text-center font-bold mt-4">
+        <h1 className="text-4xl text-center font-bold my-4">
           Welcome To Kopa Samsu Store
         </h1>
         <p className="text-center">
@@ -35,7 +35,7 @@ const AllGun = ({ countIncrease }) => {
       </div>
       <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
         {guns.map((gun) => (
-          <SingleGun gun={gun} countIncrease={countIncrease} />
+          <SingleGun gun={gun} countIncrease={countIncrease} key={gun.id} />
         ))}
       </div>
     </div>
